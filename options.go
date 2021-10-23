@@ -2,8 +2,7 @@ package micro_consul
 
 import (
 	"context"
-
-	"github.com/micro/go-micro/config/source"
+	"go-micro.dev/v4/config/source"
 )
 
 type consulConfig struct{

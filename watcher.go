@@ -1,10 +1,10 @@
 package micro_consul
 
 import (
+	"go-micro.dev/v4/config/source"
 	"time"
 
 	"github.com/hashicorp/consul/api"
-	"github.com/micro/go-micro/config/source"
 )
 
 type watcher struct {
